@@ -15,7 +15,10 @@ Locate the drive and its partitions
 ### unmount device
 * `umount`
 * `<path to mount point>`
+
+
 or
+
 * `umount`
 * `/dev/<device>`
 
