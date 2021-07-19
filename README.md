@@ -53,3 +53,9 @@ Format devce to certain format
   * etc.
 * `/dev/<device><partition label>` 
 
+## NFS
+### client
+MacOS or Linux
+* Install NFS client `sudo apt install nfs-common`
+* Show sever `showmount -e <server hostname or ip>`
+* Mount `sudo mount -t nfs -o resvport,nolocks,rw <server hostname or ip>:<path to nfs server folder> <path to client folder>`
