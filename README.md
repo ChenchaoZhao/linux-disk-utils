@@ -54,6 +54,8 @@ Format devce to certain format
 * `/dev/<device><partition label>` 
 
 ## NFS
+### server
+[nfs tutorial](https://www.raspberrypi.org/documentation/configuration/nfs.md)
 ### client
 MacOS or Linux
 * Install NFS client `sudo apt install nfs-common`
